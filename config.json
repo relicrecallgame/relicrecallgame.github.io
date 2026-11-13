@@ -1,0 +1,5 @@
+{
+  "interstitial_enabled": true,
+  "interstitial_first_level": 6,
+  "interstitial_every_wins": 3
+}

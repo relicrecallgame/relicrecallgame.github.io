@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en" data-lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Relic Recall – Privacy Policy</title><meta name="description" content="Relic Recall Privacy Policy / Gizlilik Politikası"><meta name="theme-color" content="#3a1f10"><link rel="icon" type="image/png" href="assets/favicon.png"><link rel="apple-touch-icon" href="assets/apple-touch-icon.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"><style>
+:root{
+  --sand:#f5ecdf; --wall:#fffaf2; --ink:#2b1a0f; --muted:#7a6450; --line:#e6d6bf;
+  --gold:#c9964a; --gold-hi:#f1cd84; --gold-deep:#8a5a1e; --teal:#2f7f86; --ember:#e07a2f;
+  --shadow:0 1px 0 rgba(43,26,15,.06),0 10px 28px -14px rgba(43,26,15,.35);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --sand:#160e08; --wall:#22160d; --ink:#f3e6cf; --muted:#b39c80; --line:#3a2817;
+    --gold:#d9a85a; --gold-hi:#f6d58e; --gold-deep:#9a6824; --teal:#4fa6ad; --ember:#f08a3c;
+    --shadow:0 1px 0 rgba(0,0,0,.25),0 12px 32px -14px rgba(0,0,0,.7); color-scheme:dark; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--sand);color:var(--ink);font:17px/1.7 Lora,Georgia,"Times New Roman",serif}
+a{color:var(--gold-deep)}
+@media (prefers-color-scheme:dark){a{color:var(--gold-hi)}}
+a:hover{color:var(--ember)}
+:focus-visible{outline:3px solid var(--ember);outline-offset:3px;border-radius:6px}
+h1,h2,h3,.btn,.seg button,.brand{font-family:Cinzel,Georgia,serif;letter-spacing:.02em}
+
+/* Kahraman: oyunun başlık ekranı, alt kenarı kum tepesi */
+.hero{position:relative;background:#3a1f10}
+.hero img{display:block;width:100%;height:clamp(220px,34vw,520px);object-fit:cover;object-position:50% 45%}
+.dune{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:clamp(28px,4vw,56px);display:block;color:var(--sand)}
+
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:20px 0 8px;flex-wrap:wrap}
+.tagline{margin:0;font-style:italic;font-size:clamp(19px,2.4vw,23px);line-height:1.4;max-width:34ch;color:var(--muted)}
+
+/* Dil seçici: oyundaki sekmeler gibi */
+.seg{display:inline-flex;background:var(--wall);border:1px solid var(--line);border-radius:999px;padding:4px;box-shadow:var(--shadow)}
+.seg button{border:0;background:transparent;color:var(--muted);font-size:14px;font-weight:700;padding:6px 14px;border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:linear-gradient(#e7bd6e,var(--gold));color:#2b1a0f}
+
+/* İletişim kartı: oyundaki altın çerçeveli panel */
+.help{position:relative;background:var(--wall);border-radius:26px;padding:28px 28px 30px;margin:24px 0 8px;box-shadow:var(--shadow);border:1px solid var(--line);overflow:visible}
+.help::before{content:"";position:absolute;inset:8px;border:1.5px solid var(--gold);border-radius:20px;opacity:.55;pointer-events:none}
+.help h1{font-size:clamp(28px,4.2vw,38px);line-height:1.15;margin:0 0 10px;font-weight:700}
+.help p{margin:0 0 20px;max-width:44ch}
+.help .explorer{position:absolute;right:-18px;bottom:-26px;width:210px;height:auto;pointer-events:none;filter:drop-shadow(0 10px 14px rgba(0,0,0,.25))}
+.btn{position:relative;display:inline-flex;align-items:center;gap:10px;background:linear-gradient(#f1cd84,#c9964a);color:#2b1a0f;text-decoration:none;font-weight:700;font-size:19px;
+  padding:14px 26px 15px;border-radius:16px;box-shadow:0 5px 0 var(--gold-deep),inset 0 1px 0 rgba(255,255,255,.5);transition:transform .08s,box-shadow .08s}
+.btn:hover{color:#2b1a0f;filter:brightness(1.05)}
+.btn:active{transform:translateY(4px);box-shadow:0 1px 0 var(--gold-deep)}
+.btn svg{width:22px;height:22px;flex:none}
+.note{display:block;margin-top:14px;color:var(--muted);font-size:15px}
+.note a{display:inline-block;overflow-wrap:anywhere}
+
+section.block{margin:36px 0}
+section.block h2{font-size:22px;line-height:1.25;margin:0 0 12px;font-weight:700}
+.checks{list-style:none;padding:0;margin:0}
+.checks li{position:relative;padding-left:32px;margin:0 0 8px}
+.checks li::before{content:"";position:absolute;left:5px;top:.5em;width:12px;height:12px;background:var(--gold);transform:rotate(45deg);border-radius:2px;box-shadow:0 0 0 3px var(--wall),0 0 0 4.5px var(--gold)}
+details{background:var(--wall);border:1px solid var(--line);border-radius:16px;margin:0 0 10px;padding:0 18px}
+summary{cursor:pointer;font-weight:600;padding:14px 0;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:Cinzel,serif;font-size:22px;line-height:1;color:var(--gold);transition:transform .15s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{margin:0 0 16px;color:var(--muted)}
+
+/* Yasal sayfalar */
+.bar{background:linear-gradient(#3a1f10,#24140a);color:#f3e6cf;border-bottom:2px solid var(--gold)}
+.bar .wrap{display:flex;align-items:center;gap:12px;padding-top:14px;padding-bottom:14px}
+.bar img{width:40px;height:40px;border-radius:10px;flex:none}
+.brand{color:#f6d58e;text-decoration:none;font-weight:700;font-size:20px}
+.brand:hover{color:#fff;text-decoration:underline}
+.doc{background:var(--wall);border-radius:24px;padding:28px 28px 32px;margin:20px 0 8px;box-shadow:var(--shadow);border:1px solid var(--line)}
+.doc h1{font-size:clamp(26px,4vw,34px);line-height:1.2;margin:0 0 4px;font-weight:700}
+.doc h2{font-size:18px;line-height:1.35;margin:30px 0 8px;font-weight:700}
+.doc p,.doc li{max-width:68ch}
+.doc p{margin:0 0 12px}
+.doc ul{margin:0 0 12px;padding-left:22px}
+.doc li{margin:0 0 6px}
+.doc .updated{color:var(--muted);font-size:15px;margin:0 0 20px}
+
+footer{color:var(--muted);font-size:15px;padding:28px 0 48px}
+footer nav{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:6px}
+footer nav a{font-weight:600}
+footer p{margin:0}
+
+/* Dil gösterimi: JS yoksa iki dil de görünür */
+html[data-lang="en"] [data-l="tr"],html[data-lang="tr"] [data-l="en"]{display:none}
+
+@media (max-width:620px){
+  .help{padding:22px 20px 24px;border-radius:22px}
+  .help .explorer{width:120px;right:-6px;bottom:auto;top:-78px}
+  .btn{font-size:17px;width:100%;justify-content:center}
+  .doc{padding:22px 18px 26px;border-radius:20px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style><script>
+(function(){
+  var d=document.documentElement, h=location.hash.replace('#','');
+  var l=(h==='tr'||h==='en')?h:((navigator.language||'').toLowerCase().indexOf('tr')===0?'tr':'en');
+  function set(x){d.setAttribute('data-lang',x);d.lang=x;
+    var b=document.querySelectorAll('.seg button');for(var i=0;i<b.length;i++)b[i].setAttribute('aria-pressed',b[i].getAttribute('data-set')===x?'true':'false');}
+  set(l);document.addEventListener('DOMContentLoaded',function(){set(d.getAttribute('data-lang'));});
+  document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-set]');if(!t)return;
+    set(t.getAttribute('data-set'));history.replaceState(null,'','#'+t.getAttribute('data-set'));});
+})();
+</script></head><body>
+<header class="bar"><div class="wrap"><img src="assets/apple-touch-icon.png" alt=""><a class="brand" href="./">Relic Recall</a></div></header>
+<main class="wrap"><div class="topline"><a href="./"><span data-l="en">Back to support</span><span data-l="tr">Destek sayfasına dön</span></a><div class="seg" role="group" aria-label="Language / Dil"><button type="button" data-set="en" aria-pressed="true">English</button><button type="button" data-set="tr" aria-pressed="false">Türkçe</button></div></div><article class="doc" data-l="en" lang="en"><h1>Privacy Policy</h1><p class="updated">Last updated: 2026-11-08</p>
+<p>Relic Recall: Memory Puzzle (the &quot;game&quot;) is published by Fatih Sultan Kilic. This policy explains what data is processed when you play.</p>
+<h2>1. What the game stores</h2>
+<ul><li>Your progress, purchases and settings are stored only on your device.</li><li>You do not need an account. We never ask for your name, email address, contacts or photos.</li></ul>
+<h2>2. Advertising (Google AdMob)</h2>
+<p>Ads are provided by Google AdMob. Most ads are optional rewarded videos that you choose to start (for example to continue after a loss or to get a hint). After you have finished 6 levels, a short full-screen ad may also appear between levels, at most once every 3 wins; it never appears in the middle of a level and is never shown once you have bought &quot;No Forced Ads&quot; or the &quot;Starter Pack&quot;. To deliver and measure ads, Google may process your device&#x27;s advertising identifier (on iOS only if you allow tracking), your IP address (which indicates your general location), your interactions with ads, and diagnostic data.</p>
+<ul><li>Where the law requires it (for example in the European Economic Area, the United Kingdom, Switzerland and some US states) you are asked for consent before personalized ads are shown, and you can change your choice later in the game under Settings → About → Ad preferences.</li><li>If you decline, ads are still shown but not personalized. Rewards never depend on your choice.</li><li>Google&#x27;s privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li></ul>
+<h2>3. Analytics and crash reports (Google Firebase)</h2>
+<p>We use Firebase Analytics and Firebase Crashlytics to understand how the game is played (for example which levels players finish and which hints they use) and to fix crashes. This involves an app-instance identifier, gameplay events, device model and operating system version, general location derived from your IP address, and crash logs. We do not use this data to identify you personally.</p>
+<h2>4. Game settings from our website</h2>
+<p>When it starts, the game may download a small settings file from relicrecallgame.github.io (for example how often ads appear). No personal data is sent with this request.</p>
+<h2>5. Purchases</h2>
+<p>In-app purchases are handled by the Apple App Store or Google Play. We never see or store your payment details; we only receive confirmation from the store that a purchase was made.</p>
+<h2>6. Deleting your data</h2>
+<p>Uninstalling the game deletes your progress and settings. We keep no account for you. To ask about data processed through the services above, contact us at the address below.</p>
+<h2>7. Children</h2>
+<p>The game is intended for a general audience and is not directed to children under 13. We do not knowingly collect personal data from children.</p>
+<h2>8. Your rights</h2>
+<p>You can contact us about your rights under GDPR, KVKK and similar laws (access, correction, deletion, objection).</p>
+<h2>9. Changes</h2>
+<p>If this policy changes, the new version will be published at this address and linked from the game.</p>
+<p>Contact: <a href="mailto:devfsk202@gmail.com">devfsk202@gmail.com</a></p></article><article class="doc" data-l="tr" lang="tr"><h1>Gizlilik Politikası</h1><p class="updated">Son güncelleme: 2026-11-08</p>
+<p>Relic Recall: Hafıza Oyunu (&quot;oyun&quot;), Fatih Sultan Kilic tarafından yayınlanır. Bu politika, oynarken hangi verilerin işlendiğini açıklar.</p>
+<h2>1. Oyunun sakladıkları</h2>
+<ul><li>İlerlemen, satın alımların ve ayarların yalnızca cihazında saklanır.</li><li>Hesap gerekmez. Adını, e-posta adresini, kişilerini veya fotoğraflarını asla istemeyiz.</li></ul>
+<h2>2. Reklamlar (Google AdMob)</h2>
+<p>Reklamlar Google AdMob tarafından sağlanır. Reklamların çoğu, senin başlatmayı seçtiğin ödüllü videolardır (örneğin kaybettikten sonra devam etmek ya da ipucu almak için). 6 bölüm bitirdikten sonra bölüm aralarında, en fazla 3 kazançta bir kısa, tam ekran bir reklam da çıkabilir; bölümün ortasında asla çıkmaz ve &quot;Reklamsız Oyun&quot; ya da &quot;Başlangıç Paketi&quot; satın alındıktan sonra hiç gösterilmez. Reklamları göstermek ve ölçmek için Google; cihazının reklam kimliğini (iOS&#x27;ta yalnızca takibe izin verirsen), IP adresini (genel konumunu gösterir), reklamlarla etkileşimini ve tanılama verilerini işleyebilir.</p>
+<ul><li>Yasanın gerektirdiği yerlerde (örneğin Avrupa Ekonomik Alanı, Birleşik Krallık, İsviçre ve bazı ABD eyaletleri) kişiselleştirilmiş reklamlardan önce onayın istenir; tercihini daha sonra oyunda Ayarlar → Hakkında → Reklam tercihleri&#x27;nden değiştirebilirsin.</li><li>Reddedersen reklamlar yine gösterilir ama kişiselleştirilmez. Ödüller hiçbir zaman seçimine bağlı değildir.</li><li>Google gizlilik politikası: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li></ul>
+<h2>3. Analitik ve çökme raporları (Google Firebase)</h2>
+<p>Oyunun nasıl oynandığını anlamak (örneğin oyuncuların hangi bölümleri bitirdiği, hangi ipuçlarını kullandığı) ve çökmeleri düzeltmek için Firebase Analytics ve Firebase Crashlytics kullanırız. Bu; bir uygulama kurulum kimliğini, oyun olaylarını, cihaz modelini ve işletim sistemi sürümünü, IP adresinden çıkarılan genel konumu ve çökme kayıtlarını içerir. Bu verileri seni kişisel olarak tanımlamak için kullanmayız.</p>
+<h2>4. Web sitemizden oyun ayarları</h2>
+<p>Oyun açılırken relicrecallgame.github.io adresinden küçük bir ayar dosyası indirebilir (örneğin reklamların ne sıklıkla çıkacağı). Bu istekle kişisel veri gönderilmez.</p>
+<h2>5. Satın almalar</h2>
+<p>Uygulama içi satın almalar Apple App Store veya Google Play tarafından yapılır. Ödeme bilgilerini asla görmeyiz ve saklamayız; mağazadan yalnızca satın almanın yapıldığı bilgisini alırız.</p>
+<h2>6. Verilerini silme</h2>
+<p>Oyunu silmek ilerlemeni ve ayarlarını siler. Senin için bir hesap tutmayız. Yukarıdaki hizmetler üzerinden işlenen veriler hakkında soru sormak için aşağıdaki adrese yaz.</p>
+<h2>7. Çocuklar</h2>
+<p>Oyun genel kitleye yöneliktir, 13 yaş altı çocuklara yönelik değildir. Çocuklardan bilerek kişisel veri toplamayız.</p>
+<h2>8. Hakların</h2>
+<p>KVKK, GDPR ve benzeri yasalar kapsamındaki hakların (erişim, düzeltme, silme, itiraz) için bize yazabilirsin.</p>
+<h2>9. Değişiklikler</h2>
+<p>Bu politika değişirse yeni sürüm bu adreste yayınlanır ve oyundan bağlantı verilir.</p>
+<p>İletişim: <a href="mailto:devfsk202@gmail.com">devfsk202@gmail.com</a></p></article></main>
+<footer class="wrap"><nav><a href="./"><span data-l="en">Support</span><span data-l="tr">Destek</span></a><a href="privacy.html"><span data-l="en">Privacy Policy</span><span data-l="tr">Gizlilik Politikası</span></a><a href="terms.html"><span data-l="en">Terms of Use</span><span data-l="tr">Kullanım Koşulları</span></a></nav><p>© 2026 Fatih Sultan Kilic</p></footer>
+</body></html>
